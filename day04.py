@@ -67,7 +67,7 @@ def part2(draws: list[int], boards: np.ndarray) -> int:
 
 
 if __name__ == '__main__':
-    data = Path('../inputs/day04.txt').read_text(encoding='utf-8')
+    data = Path('inputs/day04.txt').read_text(encoding='utf-8')
     draw_data, board_data = pre_process_input(data)
     answer1 = part1(draw_data, board_data)
     print('Answer1:', answer1)  # 46920

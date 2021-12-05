@@ -54,7 +54,7 @@ def part2(cmds: list[Command]) -> int:
 
 
 if __name__ == '__main__':
-    data = Path('../inputs/day02.txt').read_text(encoding='utf-8')
+    data = Path('inputs/day02.txt').read_text(encoding='utf-8')
     split_data = data.splitlines()
     commands = [Command.from_string(line) for line in split_data]
     print('Answer 1:', part1(commands))  # 2019945

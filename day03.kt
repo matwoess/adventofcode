@@ -51,7 +51,7 @@ fun part2(numbers: List<String>): Int {
 }
 
 fun main() {
-    val data = File("../inputs/day03.txt").readLines()
+    val data = File("inputs/day03.txt").readLines()
     val answer1 = part1(data)
     println("Answer 1: $answer1") // 2972336
     val answer2 = part2(data)

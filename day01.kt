@@ -27,7 +27,7 @@ fun part2(levels: List<Int>): Int {
 }
 
 fun main() {
-    val data = File("../inputs/day01.txt").readLines().map { it.toInt() }
+    val data = File("inputs/day01.txt").readLines().map { it.toInt() }
     val answer1 = part1(data)
     println("Answer 1: $answer1") // 1688
     val answer2 = part2(data)

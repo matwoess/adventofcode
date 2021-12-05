@@ -62,7 +62,7 @@ fun part2(commands: List<Command>): Int {
 }
 
 fun main() {
-    val data = File("../inputs/day02.txt").readLines().map { it.toCommand() }
+    val data = File("inputs/day02.txt").readLines().map { it.toCommand() }
     val answer1 = part1(data)
     println("Answer 1: $answer1") // 2019945
     val answer2 = part2(data)

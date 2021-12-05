@@ -26,7 +26,7 @@ def part2(levels: list[int]) -> int:
 
 
 if __name__ == '__main__':
-    data = Path('../inputs/day01.txt').read_text(encoding='utf-8')
+    data = Path('inputs/day01.txt').read_text(encoding='utf-8')
     split_data = [int(line) for line in data.splitlines()]
     answer1 = part1(split_data)
     print('Answer1:', answer1)  # 1688
