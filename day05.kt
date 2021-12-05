@@ -1,0 +1,1 @@
+../../kotlin/aoc21/day05.kt
