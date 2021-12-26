@@ -65,13 +65,13 @@ fun printPaths(paths: List<List<Cave>>) {
 
 fun part1(caves: List<Cave>): Int {
     val paths = buildPaths(caves)
-    printPaths(paths)
+    // printPaths(paths)
     return paths.size
 }
 
 fun part2(caves: List<Cave>): Int {
     val paths = buildPaths(caves, maxVisitsSmall = 2)
-    printPaths(paths)
+    // printPaths(paths)
     return paths.size
 }
 
